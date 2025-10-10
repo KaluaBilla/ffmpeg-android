@@ -1,13 +1,8 @@
 # Build Changelog
 
-**Commit:** e05f8acabff468c1382277c1f31fa8e9d90c3202
-**Author:** Andreas Rheinhardt <andreas.rheinhardt@outlook.com>
-**Date:** Wed Oct 1 08:27:14 2025 +0200
+**Commit:** 6f1ab828d3da168d28c65c03b80ad89a61c19d06
+**Author:** Niklas Haas <git@haasn.dev>
+**Date:** Mon Oct 6 14:06:30 2025 +0200
 
-avfilter/blend_modes: Don't build duplicate functions
+libavfilter/vf_libplacebo: add `temperature` option
 
-Some of the blend mode functions only depend on the underlying type
-and therefore need only one version for 9, 10, 12, 14, 16 bits.
-This saved 35104B with GCC and 26880B with Clang.
-
-Signed-off-by: Andreas Rheinhardt <andreas.rheinhardt@outlook.com>
