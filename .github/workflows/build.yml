@@ -58,7 +58,10 @@ jobs:
       fail-fast: false
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+         submodules: true      
+         fetch-depth: 0  
 
       - name: Install system dependencies and build tools
         run: |
