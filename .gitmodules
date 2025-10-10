@@ -1,0 +1,3 @@
+[submodule "downloads/rtmpdump"]
+	path = downloads/rtmpdump
+	url = git://git.ffmpeg.org/rtmpdump
