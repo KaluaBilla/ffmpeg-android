@@ -5,7 +5,7 @@ LOCK_FILE="${ROOT_DIR}/git-sources.lock"
 
 # Version definitions
 FFMPEG_VERSION="ffmpeg-8.0"
-ZLIB_VERSION="zlib-1.3.1"
+ZLIB_VERSION="zlib-1.3.2"
 #BROTLI_VERSION="1.1.0"
 BZIP2_VERSION="bzip2-1.0.8"
 OPENSSL_VERSION="openssl-3.6.0"
