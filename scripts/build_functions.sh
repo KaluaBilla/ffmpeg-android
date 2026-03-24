@@ -1054,7 +1054,6 @@ build_bluray() {
     meson_build "libbluray" "$BUILD_DIR/bluray" "$CROSS_FILE_TEMPLATE" \
         -Denable_tools=false \
         -Dfreetype=disabled \
-        -Djava9=false \
         -Dfontconfig=disabled \
         -Dlibxml2=disabled \
         -Dbdj_jar=disabled
