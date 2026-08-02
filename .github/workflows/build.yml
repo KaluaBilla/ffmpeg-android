@@ -186,7 +186,6 @@ jobs:
             - `armeabi-v7a`
             - `x86_64`
             - `x86`
-            - `riscv64`
 
             ### Installation Notes
             - **For Magisk modules:** Flash the `.zip` files through Magisk Manager
