@@ -53,7 +53,7 @@ jobs:
     if: needs.check-ffmpeg-commit.outputs.should_build == 'true'
     strategy:
       matrix:
-        arch: [aarch64, x86, riscv64, armv7, x86_64]
+        arch: [aarch64, x86, armv7, x86_64]
         ffmpeg_static: [false, true]
       fail-fast: false
     steps:
