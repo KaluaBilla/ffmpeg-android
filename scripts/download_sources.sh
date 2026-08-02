@@ -43,7 +43,7 @@ ICONV_VERSION="libiconv-1.18"
 # URL definitions for direct downloads
 ICONV_URL="https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz"
 FFMPEG_URL="https://ffmpeg.org/releases/${FFMPEG_VERSION}.tar.xz"
-ZLIB_URL="https://zlib.net/${ZLIB_VERSION}.tar.gz"
+ZLIB_URL="https://github.com/madler/zlib/releases/download/v1.3.2/${ZLIB_VERSION}.tar.xz"
 LZO_URL="https://www.oberhumer.com/opensource/lzo/download/${LZO_VERSION}.tar.gz"
 XZ_URL="https://github.com/tukaani-project/xz/releases/download/v5.8.2/${XZ_VERSION}.tar.gz"
 OPENSSL_URL="https://github.com/openssl/openssl/releases/download/${OPENSSL_VERSION}/${OPENSSL_VERSION}.tar.gz"
