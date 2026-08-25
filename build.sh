@@ -591,7 +591,7 @@ build_lcevcdec
 build_openapv
 
 ### Final cleanup + FFmpeg
-cleanup_pcfiles
+cleanup_pcfiles || true
 
 if [ -z "$FFMPEG_STATIC" ]; then
     install_opencl_headers
